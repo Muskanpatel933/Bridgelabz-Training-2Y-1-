@@ -1,0 +1,24 @@
+package Arrays.TimeComplexity;
+
+import java.util.Scanner;
+
+public class Fibonacci {
+    public static int Fibonacci(int n){
+        int a=0;
+        int b=1;
+        for(int i=0;i<=n;i++){
+            System.out.print(a+" ");
+
+            int c=a+b;
+            a=b;
+            b=c;
+        }
+        return a;
+    }
+
+    static void main() {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        System.out.println(Fibonacci(n));
+    }
+}
