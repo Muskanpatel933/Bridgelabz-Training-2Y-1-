@@ -1,7 +1,7 @@
 package String_Assignment.LEVEL__1;
 
 public class NullPointerDemo {
-    public class NullPointerDemo {
+
 
         public static void generateException() {
             String text = null;
@@ -27,4 +27,4 @@ public class NullPointerDemo {
             }
         }
     }
-}
+
